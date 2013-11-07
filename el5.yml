@@ -1,0 +1,4 @@
+- hosts: el5.lab.net
+  gather_facts: False
+  tasks:
+    - shell: uname -a
