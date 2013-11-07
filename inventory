@@ -1,1 +1,2 @@
 localhost
+el5.lab.net ansible_ssh_user=root
