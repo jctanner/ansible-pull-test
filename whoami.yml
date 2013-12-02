@@ -4,5 +4,9 @@
   tasks:
     - shell: whoami
       register: result
+    - debug: var=result
 
+    - shell: whoami
+      register: result
+      remote_user: root
     - debug: var=result
