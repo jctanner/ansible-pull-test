@@ -3,3 +3,6 @@
   gather_facts: False
   tasks:
     - shell: whoami
+      register: result
+
+    - debug: var=result
