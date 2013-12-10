@@ -1,0 +1,4 @@
+- hosts: abox
+  gather_facts: False
+  tasks:
+    - synchronize: mode=pull src=/tmp/genkeys/*  dest=/tmp/genkeys2

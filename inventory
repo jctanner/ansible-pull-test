@@ -1,2 +1,3 @@
 localhost
 el5.lab.net ansible_ssh_user=root
+abox ansible_ssh_host=127.0.0.2
