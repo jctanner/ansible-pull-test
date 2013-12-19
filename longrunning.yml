@@ -3,53 +3,52 @@
   gather_facts: False
   tasks:
     - debug:
-    - pause: seconds=1
     - shell: whoami
-    - pause: seconds=2
     - shell: uname -a
     - shell: tail /var/log/boot.log
-    - pause: seconds=2
     - shell: who
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - name: PAUSE 2
-      pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - name: PAUSE 3 
-      pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - pause: seconds=2
-    - name: PAUSE 4
-      pause: seconds=2
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: who
+    - shell: for i in $(seq 1 5); do sleep 1; done;      
+    - shell: for i in $(seq 1 6); do sleep 1; done;      
+    - shell: for i in $(seq 1 7); do sleep 1; done;      
+    - shell: for i in $(seq 1 8); do sleep 1; done;      
+    - shell: for i in $(seq 1 9); do sleep 1; done;      
