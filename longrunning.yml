@@ -7,7 +7,7 @@
     - shell: whoami
     - pause: seconds=2
     - shell: uname -a
-    - shell: tail /var/log/messages
+    - shell: tail /var/log/boot.log
     - pause: seconds=2
     - shell: who
     - pause: seconds=2
