@@ -1,0 +1,17 @@
+- hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+    - debug:
+    - pause: seconds=1
+    - shell: whoami
+    - pause: seconds=2
+    - shell: uname -a
+    - shell: tail /var/log/messages
+    - pause: seconds=2
+    - shell: who
+    - pause: seconds=2
+    - pause: seconds=2
+    - pause: seconds=2
+    - pause: seconds=2
+    - pause: seconds=2
